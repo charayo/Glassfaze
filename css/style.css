@@ -151,9 +151,38 @@ ul li {
   visibility: hidden;
   display: none;
 }
-
-
-
+.grid2-wrapper{
+   display: grid;
+   grid-template-columns: 25% 75%;
+}
+.foto{
+   width: 100%;
+   height: 70vh;
+}
+.side-bar{
+   text-align: center;
+   padding: 0px 15px;
+}
+.side-bar>div>h2{
+   font-weight: bolder;
+   font-size: 50px;
+   color: red;
+   font-family: 'Times New Roman', Times, serif;
+}
+.side-bar>div>h4{
+   color: black;
+   font-family: arial;
+   line-height: 25px;
+   padding-top: 20px;
+   
+}
+.button{
+   outline: none;
+   padding: 5px;
+   text-align: center;
+   color: red;
+   border-radius: 10%;
+}
 
 @media only screen and (max-width:480px){
    /*For mobile phones*/
