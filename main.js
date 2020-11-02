@@ -14,10 +14,17 @@ function changeFoto() {
         i = 0;
     }   
     d = c[i];
-    console.log(d); 
 };
-var interval = setInterval(changeFoto,3000);
+var interval1 = setInterval(changeFoto,3000);
+//Thhis stop slide when clicked
+document.getElementById('fotoSlide').addEventListener('click', function(){
+    clearInterval(interval1);
+});
+
+
+
 //makes the button beat
 function btnAnimation(){
-documents.querySelector('#btn')
-}
+document.getElementById('btn').classList.toggle('beat')
+};
+var  btnBeat = setInterval(btnAnimation,1000);
